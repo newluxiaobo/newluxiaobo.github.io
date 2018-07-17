@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <title>python(lu)07.16 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="title:python(lu)07.161、实现字符串反转 输入str=”string”输出’gnirts’str1=’string’print(str1[::-1]) 2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数import stringstr2=str(input(‘输入字符串：\n’))q=w=e=r=0for i in str2:    if i.isalph">
+  <meta name="description" content="1、实现字符串反转 输入str=”string”输出’gnirts’str1=’string’print(str1[::-1]) 2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数import stringstr2=str(input(‘输入字符串：\n’))q=w=e=r=0for i in str2:    if i.isalpha():        q+=1    el">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="python(lu)07.16">
 <meta property="og:url" content="http://yoursite.com/2018/07/17/text/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="title:python(lu)07.161、实现字符串反转 输入str=”string”输出’gnirts’str1=’string’print(str1[::-1]) 2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数import stringstr2=str(input(‘输入字符串：\n’))q=w=e=r=0for i in str2:    if i.isalph">
+<meta property="og:description" content="1、实现字符串反转 输入str=”string”输出’gnirts’str1=’string’print(str1[::-1]) 2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数import stringstr2=str(input(‘输入字符串：\n’))q=w=e=r=0for i in str2:    if i.isalpha():        q+=1    el">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-17T06:53:04.709Z">
+<meta property="og:updated_time" content="2018-07-17T06:57:06.660Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="title:python(lu)07.161、实现字符串反转 输入str=”string”输出’gnirts’str1=’string’print(str1[::-1]) 2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数import stringstr2=str(input(‘输入字符串：\n’))q=w=e=r=0for i in str2:    if i.isalph">
+<meta name="twitter:title" content="python(lu)07.16">
+<meta name="twitter:description" content="1、实现字符串反转 输入str=”string”输出’gnirts’str1=’string’print(str1[::-1]) 2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数import stringstr2=str(input(‘输入字符串：\n’))q=w=e=r=0for i in str2:    if i.isalpha():        q+=1    el">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -163,10 +163,24 @@
             <article id="post-text" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      python(lu)07.16
+    </h1>
+  
+
+        
+        <a href="/2018/07/17/text/" class="archive-article-date">
+  	<time datetime="2018-07-17T06:51:17.665Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-17</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<h2 id="title-python-lu-07-16"><a href="#title-python-lu-07-16" class="headerlink" title="title:python(lu)07.16"></a>title:python(lu)07.16</h2><h1 id="1、实现字符串反转-输入str-”string”输出’gnirts’"><a href="#1、实现字符串反转-输入str-”string”输出’gnirts’" class="headerlink" title="1、实现字符串反转 输入str=”string”输出’gnirts’"></a>1、实现字符串反转 输入str=”string”输出’gnirts’</h1><p>str1=’string’<br>print(str1[::-1])</p>
+        <h1 id="1、实现字符串反转-输入str-”string”输出’gnirts’"><a href="#1、实现字符串反转-输入str-”string”输出’gnirts’" class="headerlink" title="1、实现字符串反转 输入str=”string”输出’gnirts’"></a>1、实现字符串反转 输入str=”string”输出’gnirts’</h1><p>str1=’string’<br>print(str1[::-1])</p>
 <h1 id="2、输入一行字符，-分别统计出其中英文字母、空格、数字和其它字符的个数"><a href="#2、输入一行字符，-分别统计出其中英文字母、空格、数字和其它字符的个数" class="headerlink" title="2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数"></a>2、输入一行字符， 分别统计出其中英文字母、空格、数字和其它字符的个数</h1><p>import string<br>str2=str(input(‘输入字符串：\n’))<br>q=w=e=r=0<br>for i in str2:<br>    if i.isalpha():<br>        q+=1<br>    elif i.isspace():<br>        w+=1<br>    elif i.isdigit():<br>        e+=1<br>    else:<br>        r+=1<br>print(‘字母：%d,空格：%d,数字：%d,其他:%d’%(q,w,e,r))</p>
 <h1 id="3、一球从100米高度自由落下，每次落地后反跳回原高度的一半，再落下，求他在第10次落地时，共经过多少米？第10次反弹多高？"><a href="#3、一球从100米高度自由落下，每次落地后反跳回原高度的一半，再落下，求他在第10次落地时，共经过多少米？第10次反弹多高？" class="headerlink" title="3、一球从100米高度自由落下，每次落地后反跳回原高度的一半，再落下，求他在第10次落地时，共经过多少米？第10次反弹多高？"></a>3、一球从100米高度自由落下，每次落地后反跳回原高度的一半，再落下，求他在第10次落地时，共经过多少米？第10次反弹多高？</h1><p>H=100<br>N=H/2<br>for i in range(2,11):<br>    H+=2*N<br>    N/=2<br>print(‘共经过%.3f米,第十次反弹%.3f米’%(H,N))</p>
 <h1 id="4、有字符串s-‘alex’通过操作该字符串构造一个字符串s1-‘a-l-e-x’"><a href="#4、有字符串s-‘alex’通过操作该字符串构造一个字符串s1-‘a-l-e-x’" class="headerlink" title="4、有字符串s = ‘alex’通过操作该字符串构造一个字符串s1 = ‘a_l_e_x’"></a>4、有字符串s = ‘alex’通过操作该字符串构造一个字符串s1 = ‘a_l_e_x’</h1><p>s=’alex’<br>s1=’_’.join(str(n) for n in s)<br>print(s1)</p>
