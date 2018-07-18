@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Hexo</title>
+  <title>字符串 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="字符串运算符:  字符串连接   重复输出字符串（复制）[]      通过索引获取字符串中字符[:]     截取字符串中的一部分（字符串取片操作）in      成员运算符-如果字符串中包含给定的字符返回Truenot in  成员运算符-如果字符串中包含给定的字符返回Truer/R     原始字符串除在字符串的第一个引号前加上字母”r”(可以大小写以         外，与普通字符串有着几">
+<meta property="og:type" content="article">
+<meta property="og:title" content="字符串">
+<meta property="og:url" content="http://yoursite.com/2018/07/18/string2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="字符串运算符:  字符串连接   重复输出字符串（复制）[]      通过索引获取字符串中字符[:]     截取字符串中的一部分（字符串取片操作）in      成员运算符-如果字符串中包含给定的字符返回Truenot in  成员运算符-如果字符串中包含给定的字符返回Truer/R     原始字符串除在字符串的第一个引号前加上字母”r”(可以大小写以         外，与普通字符串有着几">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-07-18T11:34:05.443Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="字符串">
+<meta name="twitter:description" content="字符串运算符:  字符串连接   重复输出字符串（复制）[]      通过索引获取字符串中字符[:]     截取字符串中的一部分（字符串取片操作）in      成员运算符-如果字符串中包含给定的字符返回Truenot in  成员运算符-如果字符串中包含给定的字符返回Truer/R     原始字符串除在字符串的第一个引号前加上字母”r”(可以大小写以         外，与普通字符串有着几">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -156,130 +160,162 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-string2" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      字符串
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/07/18/string2/" class="archive-article-date">
+
+        
+        <a href="/2018/07/18/string2/" class="archive-article-date">
   	<time datetime="2018-07-18T11:04:17.469Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-18</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/18/string2/">字符串</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>字符串运算符:</p>
+<ul>
+<li>字符串连接</li>
+</ul>
+<ul>
+<li>重复输出字符串（复制）<br>[]      通过索引获取字符串中字符<br>[:]     截取字符串中的一部分（字符串取片操作）<br>in      成员运算符-如果字符串中包含给定的字符返回True<br>not in  成员运算符-如果字符串中包含给定的字符返回True<br>r/R     原始字符串除在字符串的第一个引号前加上字母”r”(可以大小写以         外，与普通字符串有着几乎完全相同的语法<br>%       格式化字符串<br>字符串函数:<br>capitalize()      将字符串的第一个字母变成大写,其他字母变小写<br>title()           所有单词都是以大写开始，其余字母均为小写<br>upper()           将字符串中的小写字母转为大写字母<br>lower()           字符串中所有大写字符为小写<br>swapcase()        对字符串的大小写字母进行转换<br>len(string)       计算字符串长度<br>count()           计算指定字符串出现的次数<br>find(str, beg=0[, end=len(string)       查找指定字符串第一次出现的位置，找不到返回-1<br>index(str, beg=0, end=len(string))      跟find()方法一样，只不过如果str不在 string中会报一个异常（str找不到）<br>startswith(str, beg=0,end=len(string))  检测字符串是否以指定的字符串开头<br>endswith(str, beg=0,end=len(string))    检测字符串是否以指定的字符串结尾<br>isupper()         检测字符串中所有的字母是否都为大写<br>islower()         检测字符串是否由小写字母组成<br>isalnum()         检测字符串是否由字母和数字组成，空字符串为false<br>isalpha()         检测字符串是否只由字母组成，带符号返回false<br>isdigit()         检测字符串是否只由数字组成（只识别十进制），空字符串为false<br>isspace()         检测字符串是否只由空格组成<br>istitle()         检测字符串中所有的单词拼写首字母是否为大写，且其他字母为小写<br>isnumeric()       检测字符串是否只由数字组成。定义一个字符串为Unicode，只需要在字符串前添加 ‘u’ 前缀即可<br>isdecimal()       检查字符串是否只包含十进制字符，这种方法只存在于unicode对象</li>
+</ul>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/07/18/string2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/07/18/string1/" class="archive-article-date">
-  	<time datetime="2018-07-18T10:51:48.137Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-18</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2018/07/18/string1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">字符串</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/18/string1/">字符串</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/07/17/text/" class="archive-article-date">
-  	<time datetime="2018-07-17T06:51:17.665Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-17</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/17/text/">python(lu)07.16</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/07/14/hello-world/" class="archive-article-date">
-  	<time datetime="2018-07-14T07:46:12.852Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/14/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -302,8 +338,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
