@@ -158,6 +158,72 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-tuple" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/19/tuple/">tuple，dict的操作</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/19/tuple/" class="archive-article-date">
+  	<time datetime="2018-07-19T07:08:41.766Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>元组（tuple）是值的一个序列。其中的值可以是任何类型，并且按照整数下标索引，与列表类似。<br>但元组中的元素不能修改，列表中的元素可以修改<br>元组与列表的区别<br>元组基本上都是不可改变的列表。元组几乎具有列表所有的特性，除开那些违反不变性的特征<br>也就是说，没有函数和方法可以改变元组</p>
+<p>由于元组和列表比较相似，使得对列表的很多操作如“+”、“*”等运算符以及长度（len）、最大（max）、最小（min）等运算都适用于元组。<br>而那些如append、extend、insert、remove、pop、reverse和sort等能改变元素的操作都不能直接操作元组。<br>然而，当元组中存在列表元素项时，就可以使用上述如append等方法修改list中的元素，达到间接修改元组元素的目的。<br>len(tuple)计算元组元素个数<br>max(tuple)返回元组中元素最大值<br>min(tuple)返回元组中元素最小值<br>tuple(seq)将列表转换为元组<br>index(value)获取指定值在元组中的索引值<br>count(value)计算某个值在元组中出现的次数</p>
+<p>字典是一种集合，它不是序列。字典可以看成键值对构成的组合，其中一个元素是键，另一个元素是值。<br>在搜索字典时，首先查找键，当查找到键后就可以直接获取该键对应的值，效率很高，是一种高效的查找方法<br>创建字典<br>与列表、元组不同的是，字典是以“{”和“}”定义的</p>
+<p>dict.clear()删除字典内所有元素<br>dict.copy()返回一个字典的浅复制<br>dict.fromkeys(seq[, val])创建一个新字典，以序列 seq 中元素做字典的键，val 为字典所有键对应的初始值<br>dict.get(key, default=None)返回指定键的值，如果值不在字典中返回default值<br>dict.items()以列表返回可遍历的(键, 值) 元组数组<br>dict.keys()以列表返回一个字典所有的键<br>dict.values()以列表返回字典中的所有值<br>pop(key[,default])删除字典给定键 key 所对应的值，返回值为被删除的值。key值必须给出。 否则，返回default值。<br>popitem()随机返回并删除字典中的一对键和值<br>dict.setdefault(key, default=None)和get()类似, 但如果键不存在于字典中，将会添加键并将值设为default<br>dict.update(dict2)把字典dict2的键/值对更新到dict里</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/07/19/tuple/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-string2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
