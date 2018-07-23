@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>tuple，dict的操作 | Hexo</title>
+  <title>函数 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="12345678910111213141516171819202122232425262728293031323334353637元组（tuple）是值的一个序列。其中的值可以是任何类型，并且按照整数下标索引，与列表类似。但元组中的元素不能修改，列表中的元素可以修改元组与列表的区别元组基本上都是不可改变的列表。元组几乎具有列表所有的特性，除开那些违反不变性的特征也就是说，没有函数和方法可以改变元">
+  <meta name="description" content="函数（function）是一段完成特定功能的已命名代码块。函数可以遵照参数完成特定的任务，并且可能返回一个值.在Python中有两种函数：自定义函数与内置函数.页面加载时函数不会立即执行，函数只有在被调用时才会执行.函数具有重用性.循环可以使单行代码重复利用，函数使代码功能可以重复利用.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="tuple，dict的操作">
-<meta property="og:url" content="http://yoursite.com/2018/07/19/tuple/index.html">
+<meta property="og:title" content="函数">
+<meta property="og:url" content="http://yoursite.com/2018/07/23/hanshu/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="12345678910111213141516171819202122232425262728293031323334353637元组（tuple）是值的一个序列。其中的值可以是任何类型，并且按照整数下标索引，与列表类似。但元组中的元素不能修改，列表中的元素可以修改元组与列表的区别元组基本上都是不可改变的列表。元组几乎具有列表所有的特性，除开那些违反不变性的特征也就是说，没有函数和方法可以改变元">
+<meta property="og:description" content="函数（function）是一段完成特定功能的已命名代码块。函数可以遵照参数完成特定的任务，并且可能返回一个值.在Python中有两种函数：自定义函数与内置函数.页面加载时函数不会立即执行，函数只有在被调用时才会执行.函数具有重用性.循环可以使单行代码重复利用，函数使代码功能可以重复利用.">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-23T08:31:51.707Z">
+<meta property="og:updated_time" content="2018-07-23T08:39:15.219Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tuple，dict的操作">
-<meta name="twitter:description" content="12345678910111213141516171819202122232425262728293031323334353637元组（tuple）是值的一个序列。其中的值可以是任何类型，并且按照整数下标索引，与列表类似。但元组中的元素不能修改，列表中的元素可以修改元组与列表的区别元组基本上都是不可改变的列表。元组几乎具有列表所有的特性，除开那些违反不变性的特征也就是说，没有函数和方法可以改变元">
+<meta name="twitter:title" content="函数">
+<meta name="twitter:description" content="函数（function）是一段完成特定功能的已命名代码块。函数可以遵照参数完成特定的任务，并且可能返回一个值.在Python中有两种函数：自定义函数与内置函数.页面加载时函数不会立即执行，函数只有在被调用时才会执行.函数具有重用性.循环可以使单行代码重复利用，函数使代码功能可以重复利用.">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -160,20 +160,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-tuple" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-hanshu" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      tuple，dict的操作
+      函数
     </h1>
   
 
         
-        <a href="/2018/07/19/tuple/" class="archive-article-date">
-  	<time datetime="2018-07-19T07:08:41.766Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-19</time>
+        <a href="/2018/07/23/hanshu/" class="archive-article-date">
+  	<time datetime="2018-07-23T08:35:26.682Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-23</time>
 </a>
         
       </header>
@@ -181,7 +181,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <a id="more"></a>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">元组（tuple）是值的一个序列。其中的值可以是任何类型，并且按照整数下标索引，与列表类似。</span><br><span class="line">但元组中的元素不能修改，列表中的元素可以修改</span><br><span class="line">元组与列表的区别</span><br><span class="line">元组基本上都是不可改变的列表。元组几乎具有列表所有的特性，除开那些违反不变性的特征</span><br><span class="line">也就是说，没有函数和方法可以改变元组</span><br><span class="line"></span><br><span class="line">由于元组和列表比较相似，使得对列表的很多操作如“+”、“*”等运算符以及长度（len）、最大（max）、最小（min）等运算都适用于元组。</span><br><span class="line">而那些如append、extend、insert、remove、pop、reverse和sort等能改变元素的操作都不能直接操作元组。</span><br><span class="line">然而，当元组中存在列表元素项时，就可以使用上述如append等方法修改list中的元素，达到间接修改元组元素的目的。</span><br><span class="line">len(tuple)计算元组元素个数</span><br><span class="line">max(tuple)返回元组中元素最大值</span><br><span class="line">min(tuple)返回元组中元素最小值</span><br><span class="line">tuple(seq)将列表转换为元组</span><br><span class="line">index(value)获取指定值在元组中的索引值</span><br><span class="line">count(value)计算某个值在元组中出现的次数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">字典是一种集合，它不是序列。字典可以看成键值对构成的组合，其中一个元素是键，另一个元素是值。</span><br><span class="line">在搜索字典时，首先查找键，当查找到键后就可以直接获取该键对应的值，效率很高，是一种高效的查找方法</span><br><span class="line">创建字典</span><br><span class="line">与列表、元组不同的是，字典是以“&#123;”和“&#125;”定义的</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">dict.clear()删除字典内所有元素</span><br><span class="line">dict.copy()返回一个字典的浅复制</span><br><span class="line">dict.fromkeys(seq[, val])创建一个新字典，以序列 seq 中元素做字典的键，val 为字典所有键对应的初始值</span><br><span class="line">dict.get(key, default=None)返回指定键的值，如果值不在字典中返回default值</span><br><span class="line">dict.items()以列表返回可遍历的(键, 值) 元组数组</span><br><span class="line">dict.keys()以列表返回一个字典所有的键</span><br><span class="line">dict.values()以列表返回字典中的所有值</span><br><span class="line">pop(key[,default])删除字典给定键 key 所对应的值，返回值为被删除的值。key值必须给出。 否则，返回default值。</span><br><span class="line">popitem()随机返回并删除字典中的一对键和值</span><br><span class="line">dict.setdefault(key, default=None)和get()类似, 但如果键不存在于字典中，将会添加键并将值设为default</span><br><span class="line">dict.update(dict2)把字典dict2的键/值对更新到dict里</span><br></pre></td></tr></table></figure>
+<p>函数（function）是一段完成特定功能的已命名代码块。函数可以遵照参数完成特定的任务，并且可能返回一个值.<br>在Python中有两种函数：自定义函数与内置函数.<br>页面加载时函数不会立即执行，函数只有在被调用时才会执行.<br>函数具有重用性.<br>循环可以使单行代码重复利用，函数使代码功能可以重复利用.</p>
 
       
 
@@ -261,7 +261,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/07/19/tuple/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/07/23/hanshu/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -275,18 +275,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/07/23/hanshu/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          函数
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/07/18/string2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">字符串</div>
+    <a href="/2018/07/19/tuple/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">tuple，dict的操作</div>
       <i class="icon-circle-right"></i>
     </a>
   
